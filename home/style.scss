@@ -34,12 +34,23 @@ body{
             font-size: 30px;
         }
     }
+    .buttons{
+        align-items: flex-end;
+        margin-top: 10vh;
+        margin-right: 5vw;
+        button{
+            margin-bottom: 4vh;
+        }
+    }
     .description{
+        position: absolute;
+        bottom: 0;
         display: flex;
         justify-content: space-between;
-        margin-right: 6vw;
+        align-items: flex-end;
+        margin-right: 5vw;
         margin-left: 6vw;
-        margin-top: 45vh;
+        margin-bottom: 5vh;
         span{
             color: white;
         }
