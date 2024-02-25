@@ -1,0 +1,84 @@
+body{
+    background-color: black !important;
+    background-image: url(/source/Layer\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: top 5vh right 50%;
+    
+    header{
+        img{
+            width: auto;
+            height: 5vh;
+            cursor: pointer;
+        }
+        background-color: black;
+        border-bottom: 3px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(90deg, rgba(59,0,135,1) 0%, rgba(191,92,0,1) 55%, rgba(59,0,135,1) 100%);
+
+    }
+    .block{
+        padding-top: 10vh;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    h1{
+        color: white;
+        margin-bottom: 8vh;
+        text-align: center;
+    }
+
+    .btn-purple{
+        background-color: #7000FF;
+        border: none;
+        width: 20vw;
+        height: 7vh;
+        border-radius: 5px;
+        span{
+            color: white;
+            font-size: 30px;
+        }
+    }
+    .link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2vh;
+        button{
+            height: 5vh;
+            width: 10vw;
+            border: none;
+            cursor: pointer;
+            background-color: #3D008A;
+            margin-right: 4vw;
+            span{
+                color: white;
+            }
+        }
+        div{
+            border: 1px solid white;
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            span{
+                color: white;
+            }
+        }
+    }
+    .instruction{
+        position: absolute;
+        bottom: 2vh;
+        width: 100%;
+        div{
+            border: 3px solid white;
+            padding: 2vh;
+            span{
+                color: white;
+            }
+        }
+    }
+
+
+}
