@@ -1,0 +1,107 @@
+body{
+    background-color: black !important;
+    background-image: url(/source/Layer\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: top 5vh right 50%;
+    header{
+        img{
+            width: auto;
+            height: 5vh;
+            cursor: pointer;
+        }
+        background-color: black;
+        border-bottom: 3px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(90deg, rgba(59,0,135,1) 0%, rgba(191,92,0,1) 55%, rgba(59,0,135,1) 100%);
+
+    }
+    h1{
+        position: absolute;
+        color: white;
+        width: 50vw;
+        top: 30vh;
+        left: 10vw;
+    }
+    .block{
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    .btn-purple{
+        background-color: #7000FF;
+        border: none;
+        width: 20vw;
+        height: 7vh;
+        border-radius: 5px;
+        span{
+            color: white;
+            font-size: 30px;
+        }
+    }
+    .nav{
+        padding-top: 5vh;
+        .activatet{
+            border-bottom: 2px solid white;
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            span{
+                color: white;
+                font-size: 30px;
+            }
+        }
+        .nav__profile{
+            button{
+                margin-right: 4vw;
+            }
+        }
+
+    }
+    .profile{
+        margin-top: 6vh;
+        border: 2px solid white;
+        border-radius: 5vw;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8vh 0 5vh 0;
+        span, input::placeholder{
+            color: white;
+        }
+        .profile__row{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 5vh;
+            span{
+                width: 30%;
+            }
+            input{
+                border: none;
+                background-color: transparent;
+                color: white;
+                border-bottom: 3px solid white;
+                width: 40%;
+                padding-bottom: 1vh;
+                font-size: 20px;
+            }
+            input:focus{
+                outline: none;
+            }
+        }
+        button{
+            margin-top: 2vh;
+            width: 15vw;
+            height: 5vh;
+            span{
+                font-size: 20px;
+            }
+        }
+        
+    }
+
+}
