@@ -106,6 +106,17 @@
         --s18: 25px;
         --s20: 25px;
     }
+    header{
+        img{
+            height: 10vh !important;
+        }
+    }
+    .mobile-header{
+        height: 20vh !important;
+        img{
+            height: 10vh !important;
+        }
+    }
     .main{
         img{
             height: 80vh !important;
@@ -263,7 +274,6 @@ body{
         margin-bottom: 8vh;
         text-align: center;
     }
-
     .btn-purple{
         background-color: #7000FF;
         border: none;

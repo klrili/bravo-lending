@@ -75,6 +75,37 @@
         display: block !important;
     }
 }
+@media screen and (max-height: 600px)  {
+    :root{
+        --s18: 25px;
+        --s20: 25px;
+    }
+
+    .btn-purple{
+        height: 15vh !important;
+    }
+    .buttons{
+        margin-bottom: 5vh;
+    }
+    h1{
+        margin-top: 20vh !important;
+    }
+    .vertical{
+        width: 40vw !important;
+        margin-left: 5vw;
+    }
+    header{
+        img{
+            height: 10vh !important;
+        }
+    }
+    .mobile-header{
+        height: 20vh !important;
+        img{
+            height: 10vh !important;
+        }
+    }
+}
 @media screen and (max-width: 500px) {
     :root{
         --s20: 18px;

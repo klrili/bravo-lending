@@ -92,6 +92,38 @@
         }
     }
 }
+@media screen and (max-height: 600px)  {
+    :root{
+        --s18: 25px;
+        --s20: 25px;
+    }
+
+    header{
+        img{
+            height: 10vh !important;
+        }
+    }
+    .mobile-header{
+        height: 20vh !important;
+        img{
+            height: 10vh !important;
+        }
+    }
+    .btn-purple{
+        height: 15vh !important;
+    }
+    .login{
+        input{
+            height: 10vh !important;
+        }
+        @media screen and (min-width: 768px){
+            img{
+                width: 3vw !important;
+                bottom: 1.5vh !important;
+            }
+        }
+    }
+}
 @media screen and (max-width: 500px) {
     :root{
         --s14: 14px;
@@ -182,6 +214,9 @@ body{
         width: 30vw;
         margin: 10vh 8vw 0 auto;
         padding: 6vh 0 2vh 0;
+        img{
+            position: absolute; right: 1vw; bottom: 1.25vh;
+        }
         .paragraph{
             font-size: var(--s40);
             font-weight: 500;
