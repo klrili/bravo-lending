@@ -93,9 +93,43 @@
         button{
             width: 40vw !important;
             margin-top: 2vh !important;
-            margin-bottom: 2vh !important;
+            margin-bottom: 5vh !important;
+            margin-right: 0 !important;
         }
 
+    }
+
+
+}
+@media screen and (max-height: 600px)  {
+    :root{
+        --s18: 25px;
+        --s20: 25px;
+    }
+    .main{
+        img{
+            height: 80vh !important;
+        }
+        img, b{
+            margin-right: 5vw !important;
+        }
+    }
+    .btn-purple{
+        height: 15vh !important;
+    }
+    .link{
+        margin-top: 10vh !important;
+        @media screen and (min-width: 768px) {     
+            button{
+                width: 15vw !important;
+            }
+        }
+        button{
+            width: 30vw !important;
+        }
+        button, div{
+            height: 15vh !important;
+        }
     }
 
 
@@ -120,6 +154,9 @@ body{
     font-family: "Montserrat", sans-serif !important;
     font-optical-sizing: auto;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     span, h1, a{
         color: white;
     }
@@ -271,10 +308,11 @@ body{
         }
     }
     .instruction{
+        margin-top: auto;
         display: flex;
-        position: absolute;
         bottom: 2vh;
         width: 100%;
+        margin-bottom: 2vh;
         div{
             border: 3px solid white;
             padding: 2vh;
@@ -284,6 +322,4 @@ body{
             }
         }
     }
-
-
 }
